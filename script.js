@@ -16,3 +16,21 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
+
+const items = document.querySelectorAll(".feature-block");
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = 1;
+      entry.target.style.transform = "translateY(0)";
+    }
+  });
+});
+
+items.forEach(el => {
+  el.style.opacity = 0;
+  el.style.transform = "translateY(50px)";
+  el.style.transition = "all 0.6s ease";
+  observer.observe(el);
+});
