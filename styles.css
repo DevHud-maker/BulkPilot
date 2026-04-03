@@ -462,7 +462,7 @@ body {
 .shot-frame img {
   display: block;
   width: 100%;
-  height: 620px;
+  height: 820px;
   object-fit: contain;
   object-position: center;
   border-radius: 18px;
