@@ -2,84 +2,284 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <title>BulkPilot – Shopify Data Automation</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BulkPilot — Shopify Data Operations</title>
+  <meta
+    name="description"
+    content="Bulk edit, import, export, and automate Shopify data with BulkPilot."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <div class="bg bg-1"></div>
+  <div class="bg bg-2"></div>
+  <div class="bg-grid"></div>
 
-<header class="nav">
-  <div class="logo">BulkPilot</div>
-  <a class="btn primary">Start Free Trial</a>
-</header>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <div class="brand-mark">BP</div>
+        <span>BulkPilot</span>
+      </a>
 
-<section class="hero">
-  <h1>Take control of your Shopify data</h1>
-  <p>Bulk edit, import and export faster than ever.</p>
-  <a class="btn primary">Start 14-day free trial</a>
-</section>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
 
-<!-- ================= SCREENSHOTS ================= -->
-
-<section class="screenshots">
-
-  <!-- IMPORT -->
-  <div class="feature-block">
-    <div class="feature-text">
-      <span class="badge">IMPORT</span>
-      <h2>Clean messy data in seconds</h2>
-      <p>Upload CSV or Excel → map fields → preview before applying.</p>
+      <div class="nav-actions">
+        <a href="#screenshots" class="btn btn-secondary">See Product</a>
+        <a href="#" class="btn btn-primary">Start Free Trial</a>
+      </div>
     </div>
+  </header>
 
-    <div class="image-row">
-      <img src="assets/import-1.png">
-      <img src="assets/import-2.png">
-      <img src="assets/import-3.png">
-    </div>
-  </div>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="pill">Premium Shopify data operations</div>
+          <h1>Take full control of your Shopify data.</h1>
+          <p>
+            BulkPilot helps merchants and agencies bulk edit products, import messy
+            spreadsheets, export store data in multiple formats, and automate recurring exports.
+          </p>
 
-  <!-- EXPORT -->
-  <div class="feature-block reverse">
-    <div class="feature-text">
-      <span class="badge">EXPORT</span>
-      <h2>Powerful export engine</h2>
-      <p>Export anything in CSV, Excel, JSON or feeds.</p>
-    </div>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-primary btn-lg">Start 14-day free trial</a>
+            <a href="#screenshots" class="btn btn-secondary btn-lg">Explore the workflow</a>
+          </div>
 
-    <div class="image-row">
-      <img src="assets/export-1.png">
-      <img src="assets/export-2.png">
-      <img src="assets/export-3.png">
-    </div>
-  </div>
+          <div class="hero-points">
+            <span>Bulk Edit</span>
+            <span>Smart Import</span>
+            <span>Advanced Export</span>
+            <span>Scheduled Exports</span>
+          </div>
+        </div>
 
-  <!-- BULK EDIT -->
-  <div class="feature-block">
-    <div class="feature-text">
-      <span class="badge">BULK EDIT</span>
-      <h2>Edit thousands of products instantly</h2>
-      <p>Spreadsheet-style editing with powerful filters.</p>
-    </div>
+        <div class="hero-panel reveal delay-1">
+          <div class="hero-panel-card">
+            <div class="window-top">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="hero-mock">
+              <div class="mock-row mock-row-lg"></div>
+              <div class="mock-grid">
+                <div class="mock-box"></div>
+                <div class="mock-box"></div>
+                <div class="mock-box"></div>
+                <div class="mock-box"></div>
+              </div>
+              <div class="mock-row"></div>
+              <div class="mock-row"></div>
+              <div class="mock-row"></div>
+            </div>
+          </div>
 
-    <div class="image-row">
-      <img src="assets/bulkedit-1.png">
-      <img src="assets/bulkedit-2.png">
-      <img src="assets/bulkedit-3.png">
-    </div>
-  </div>
+          <div class="floating-card floating-card-left">
+            <div class="floating-label">Import</div>
+            <strong>Map messy files faster</strong>
+            <p>Upload, map, validate, preview.</p>
+          </div>
 
-</section>
+          <div class="floating-card floating-card-right">
+            <div class="floating-label success">Automation</div>
+            <strong>Recurring exports</strong>
+            <p>Schedule daily, weekly, monthly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section class="cta">
-  <h2>Stop wasting time on spreadsheets</h2>
-  <a class="btn primary">Install BulkPilot</a>
-</section>
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="pill">Why BulkPilot</div>
+          <h2>The modern control center for Shopify data.</h2>
+          <p>
+            Replace spreadsheet chaos with a cleaner workflow for editing, importing,
+            exporting and automating store operations.
+          </p>
+        </div>
 
-<script src="script.js"></script>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="icon">✦</div>
+            <h3>Bulk edit with confidence</h3>
+            <p>Edit products, variants and customers in a larger spreadsheet-style interface.</p>
+          </article>
 
+          <article class="feature-card reveal delay-1">
+            <div class="icon">⇄</div>
+            <h3>Smarter spreadsheet import</h3>
+            <p>Map columns faster, validate data, and preview changes before applying.</p>
+          </article>
+
+          <article class="feature-card reveal delay-2">
+            <div class="icon">⬇</div>
+            <h3>Advanced exports</h3>
+            <p>Export store data in CSV, Excel, JSON and feed-friendly formats.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="icon">⟳</div>
+            <h3>Automated schedules</h3>
+            <p>Run recurring exports with timezone-aware scheduling and history.</p>
+          </article>
+
+          <article class="feature-card reveal delay-1">
+            <div class="icon">⚡</div>
+            <h3>Built for scale</h3>
+            <p>Handle larger catalogs with a more serious workflow for operators and agencies.</p>
+          </article>
+
+          <article class="feature-card reveal delay-2">
+            <div class="icon">◎</div>
+            <h3>Premium product feel</h3>
+            <p>A cleaner UI than bloated legacy tools, with a more modern SaaS experience.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="screenshots">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="pill">Real product screens</div>
+          <h2>Show the full BulkPilot workflow.</h2>
+          <p>
+            Add 3 screenshots for Import, 3 for Export, and 3 for Bulk Edit.
+            These frames are intentionally large and use contain mode so the full image stays visible.
+          </p>
+        </div>
+
+        <div class="gallery-block reveal">
+          <div class="gallery-copy">
+            <span class="mini-pill">Import</span>
+            <h3>Smart import workflow</h3>
+            <p>Show upload, field mapping, and preview before applying.</p>
+          </div>
+
+          <div class="image-strip">
+            <figure class="shot-frame">
+              <img src="assets/import-1.png" alt="BulkPilot import screenshot 1" />
+            </figure>
+            <figure class="shot-frame">
+              <img src="assets/import-2.png" alt="BulkPilot import screenshot 2" />
+            </figure>
+            <figure class="shot-frame">
+              <img src="assets/import-3.png" alt="BulkPilot import screenshot 3" />
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery-block reveal delay-1">
+          <div class="gallery-copy">
+            <span class="mini-pill">Export</span>
+            <h3>Advanced export engine</h3>
+            <p>Show export setup, column selection, and scheduling.</p>
+          </div>
+
+          <div class="image-strip">
+            <figure class="shot-frame">
+              <img src="assets/export-1.png" alt="BulkPilot export screenshot 1" />
+            </figure>
+            <figure class="shot-frame">
+              <img src="assets/export-2.png" alt="BulkPilot export screenshot 2" />
+            </figure>
+            <figure class="shot-frame">
+              <img src="assets/export-3.png" alt="BulkPilot export screenshot 3" />
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery-block reveal delay-2">
+          <div class="gallery-copy">
+            <span class="mini-pill">Bulk Edit</span>
+            <h3>Spreadsheet-style bulk editing</h3>
+            <p>Show the grid, filters, selection tools, and save workflow.</p>
+          </div>
+
+          <div class="image-strip">
+            <figure class="shot-frame">
+              <img src="assets/bulkedit-1.png" alt="BulkPilot bulk edit screenshot 1" />
+            </figure>
+            <figure class="shot-frame">
+              <img src="assets/bulkedit-2.png" alt="BulkPilot bulk edit screenshot 2" />
+            </figure>
+            <figure class="shot-frame">
+              <img src="assets/bulkedit-3.png" alt="BulkPilot bulk edit screenshot 3" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="pill">Pricing</div>
+          <h2>Simple pricing with a premium feel.</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="price-card reveal">
+            <div class="mini-pill">Free</div>
+            <h3>Explore the product</h3>
+            <p>Test the workflow with smaller actions.</p>
+            <ul>
+              <li>Browse the product</li>
+              <li>Small manual actions</li>
+              <li>Basic export testing</li>
+            </ul>
+            <a href="#" class="btn btn-secondary full">Get Started</a>
+          </div>
+
+          <div class="price-card featured reveal delay-1">
+            <div class="top-badge">Most Popular</div>
+            <div class="mini-pill">Pro</div>
+            <h3>For serious Shopify operations</h3>
+            <div class="price-line"><span>$39</span><small>/month</small></div>
+            <p>Unlock the full workflow with a 14-day free trial.</p>
+            <ul>
+              <li>Unlimited bulk edits</li>
+              <li>Import apply workflows</li>
+              <li>Scheduled exports</li>
+              <li>Advanced export formats</li>
+            </ul>
+            <a href="#" class="btn btn-primary full">Start Free Trial</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div>
+            <div class="pill">Launch BulkPilot</div>
+            <h2>Present your app like a serious SaaS brand.</h2>
+            <p>
+              Use this landing page for bulkpilot.net and keep your Shopify app separate on its own subdomain.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="#" class="btn btn-primary btn-lg">Install BulkPilot</a>
+            <a href="#" class="btn btn-secondary btn-lg">Contact Support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
