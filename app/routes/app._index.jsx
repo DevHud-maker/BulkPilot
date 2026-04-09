@@ -89,7 +89,7 @@ export default function Index() {
               catalog operations.
             </s-paragraph>
             <s-paragraph>
-              <s-text fontWeight="bold">$39/month</s-text> — cancel anytime.
+              <s-text fontWeight="bold">$19/month</s-text> — cancel anytime.
             </s-paragraph>
             <s-link href="/app/upgrade">View plan</s-link>
           </s-box>
