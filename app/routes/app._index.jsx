@@ -109,9 +109,6 @@ export default function Index() {
       <s-section slot="aside" heading="Quick links">
         <s-unordered-list>
           <s-list-item>
-            <s-link href="/app/dashboard">Dashboard AI</s-link>
-          </s-list-item>
-          <s-list-item>
             <s-link href="/app/dashboard-import">Import</s-link>
           </s-list-item>
           <s-list-item>
