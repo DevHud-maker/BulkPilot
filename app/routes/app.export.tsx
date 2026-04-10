@@ -10,9 +10,7 @@ type EntityKey =
   | "products"
   | "smart_collections"
   | "custom_collections"
-  | "companies"
   | "discounts"
-  | "orders"
   | "pages"
   | "redirects"
   | "files"
@@ -79,9 +77,7 @@ const ENTITIES: Array<{ key: EntityKey; label: string }> = [
   { key: "products", label: "Products" },
   { key: "smart_collections", label: "Smart Collections" },
   { key: "custom_collections", label: "Custom Collections" },
-  { key: "companies", label: "Companies" },
   { key: "discounts", label: "Discounts" },
-  { key: "orders", label: "Orders" },
   { key: "pages", label: "Pages" },
   { key: "redirects", label: "Redirects" },
   { key: "files", label: "Files" },
@@ -214,9 +210,7 @@ const DEFAULT_ENTITY_COLUMNS: Record<EntityKey, string[]> = {
   products: ["ID", "Handle", "Title", "Status", "Vendor"],
   smart_collections: ["ID", "Title", "Handle", "Updated At"],
   custom_collections: ["ID", "Title", "Handle", "Updated At"],
-  companies: ["ID", "Name", "External ID", "Created At"],
   discounts: ["ID", "Title", "Status", "Starts At", "Ends At"],
-  orders: ["ID", "Name", "Financial Status", "Fulfillment Status", "Created At"],
   pages: ["ID", "Handle", "Title", "Published At"],
   redirects: ["ID", "Path", "Target"],
   files: ["ID", "Alt", "Created At"],
