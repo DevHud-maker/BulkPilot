@@ -1,6 +1,57 @@
 {
   "jobs": [
     {
+      "id": "exp_1775767460870",
+      "shop": "ai-agent-test-store-4.myshopify.com",
+      "status": "completed",
+      "config": {
+        "presetName": "test",
+        "format": "excel",
+        "selectedEntities": [
+          "products"
+        ],
+        "selectedColumns": {
+          "products": [
+            "ID",
+            "Handle",
+            "Title",
+            "Status",
+            "Vendor"
+          ]
+        },
+        "filters": {},
+        "scheduleOnDate": "",
+        "scheduleOnTime": "00:00",
+        "timezone": "America/New_York",
+        "repeatEvery": 1,
+        "repeatUnit": "days",
+        "runUntil": "until_cancelled",
+        "runTimes": 1,
+        "customFileName": "Export_%Y-%m-%d_%H%M%S",
+        "fileNameTimeSource": "started_at",
+        "skipEmptyResults": true,
+        "uploadTo": "none",
+        "serverUrl": "",
+        "sorting": "shopify_order"
+      },
+      "entities": {
+        "products": {
+          "status": "completed",
+          "bulkOperationId": "gid://shopify/BulkOperation/7545498894704",
+          "url": "https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/j08v3j6fqef5onj6u1oh3khup1v9-final?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1776372265&Signature=cbFq7L1pjrlJRpDz5OnpGkBDe2%2F7PLZLDqjAjTd%2FeJ7adaYAVh273oODAjQJmH5Mj9VwbUt95WqOz7IlrLQ4YmQ9GyF5cJz5uWhPI5Ka45izaQWxPucBvt6Jk8XY2k%2Fm9Q3WL%2FDfdvAVmzVz9BJVYAbFFKncfJ7I%2FZ%2Fi2x6U%2FPjCNAsuXvoPYBa5CyKwQTN86KMHepjghyYXBBkqM0NTVj27C%2BBRCTjgRMeodHWu1a31sbVDiD4PKYrW04LrcLwjUWaMyAr%2FBhWamQpN9Dknt5KtWzndTZic3F3a%2FL2VKJzUwDdeaCp%2BxKJU5Q0%2Bk8nDH5XDC9X9XirPAKIftEVsDA%3D%3D&response-content-disposition=attachment%3B+filename%3D%22bulk-7545498894704.jsonl%22%3B+filename%2A%3DUTF-8%27%27bulk-7545498894704.jsonl&response-content-type=application%2Fjsonl",
+          "partialDataUrl": null,
+          "errorCode": null,
+          "objectCount": "1006"
+        }
+      },
+      "message": "Export completed.",
+      "finalFilePath": "C:\\Users\\admin\\BulkPilot\\app-data\\export-results\\exp_1775767460870__Export_2026-04-09_224428.xlsx",
+      "finalFileName": "Export_2026-04-09_224428.xlsx",
+      "finalContentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "createdAt": "2026-04-09T20:44:20.884Z",
+      "updatedAt": "2026-04-09T20:44:28.295Z"
+    },
+    {
       "id": "exp_1775080897676",
       "shop": "ai-agent-test-store-4.myshopify.com",
       "status": "completed",

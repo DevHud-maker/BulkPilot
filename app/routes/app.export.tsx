@@ -10,17 +10,12 @@ type EntityKey =
   | "products"
   | "smart_collections"
   | "custom_collections"
-  | "customers"
   | "companies"
   | "discounts"
-  | "draft_orders"
   | "orders"
-  | "payouts"
   | "pages"
   | "redirects"
   | "files"
-  | "menus"
-  | "metaobjects"
   | "shop";
 
 type ScheduleUnit = "days" | "weeks" | "months";
@@ -84,17 +79,12 @@ const ENTITIES: Array<{ key: EntityKey; label: string }> = [
   { key: "products", label: "Products" },
   { key: "smart_collections", label: "Smart Collections" },
   { key: "custom_collections", label: "Custom Collections" },
-  { key: "customers", label: "Customers" },
   { key: "companies", label: "Companies" },
   { key: "discounts", label: "Discounts" },
-  { key: "draft_orders", label: "Draft Orders" },
   { key: "orders", label: "Orders" },
-  { key: "payouts", label: "Payouts" },
   { key: "pages", label: "Pages" },
   { key: "redirects", label: "Redirects" },
   { key: "files", label: "Files" },
-  { key: "menus", label: "Menus" },
-  { key: "metaobjects", label: "Metaobjects" },
   { key: "shop", label: "Shop" },
 ];
 
@@ -224,17 +214,12 @@ const DEFAULT_ENTITY_COLUMNS: Record<EntityKey, string[]> = {
   products: ["ID", "Handle", "Title", "Status", "Vendor"],
   smart_collections: ["ID", "Title", "Handle", "Updated At"],
   custom_collections: ["ID", "Title", "Handle", "Updated At"],
-  customers: ["ID", "First Name", "Last Name", "Email", "Tags"],
   companies: ["ID", "Name", "External ID", "Created At"],
   discounts: ["ID", "Title", "Status", "Starts At", "Ends At"],
-  draft_orders: ["ID", "Name", "Status", "Created At"],
   orders: ["ID", "Name", "Financial Status", "Fulfillment Status", "Created At"],
-  payouts: ["ID", "Status", "Issued At", "Amount"],
   pages: ["ID", "Handle", "Title", "Published At"],
   redirects: ["ID", "Path", "Target"],
   files: ["ID", "Alt", "Created At"],
-  menus: ["ID", "Handle", "Title"],
-  metaobjects: ["ID", "Type", "Handle", "Updated At"],
   shop: ["Name", "Email", "Domain", "Currency"],
 };
 
